@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap");
+
+h2 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, rgb(18, 220, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 50px;
+  transition: all 4s ease;
+}
+
+h2:hover {
+  background: -webkit-linear-gradient(315deg, #55efc4 0%, #000000 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  font-size: 30px;
+  background: -webkit-linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Ubuntu Condensed", sans-serif;
+  margin: 40px;
+  transition: all 0.5s ease;
+}
+
+p:hover {
+  font-size: 30px;
+  background: -webkit-linear-gradient(rgb(172, 172, 172), rgb(197, 246, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-family: "Ubuntu Condensed", sans-serif;
+  margin-left: 55px;
+}
+
+.hdr {
+  font-size: 20px;
+  background-color: #42378f;
+  background-image: linear-gradient(315deg, #dc5a41 10%, #2c3545 75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 55px;
+  font-weight: bolder;
+  margin-right: 20px;
+}
+
+.dbv {
+  font-size: 20px;
+  background-color: #42378f;
+  background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 55px;
+  font-weight: bolder;
+  margin-right: 20px;
+}
+
+.xxy {
+  font-size: 20px;
+  background-color: #42378f;
+  background-image: linear-gradient(315deg, #c4bcf8 10%, #129007 84%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 55px;
+  font-weight: bolder;
+  margin-right: 20px;
+}
